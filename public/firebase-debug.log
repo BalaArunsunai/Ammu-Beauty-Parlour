@@ -1,0 +1,107 @@
+[debug] [2020-09-26T06:15:21.127Z] ----------------------------------------------------------------------
+[debug] [2020-09-26T06:15:21.130Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\This pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-26T06:15:21.130Z] CLI Version:   8.11.1
+[debug] [2020-09-26T06:15:21.130Z] Platform:      win32
+[debug] [2020-09-26T06:15:21.131Z] Node Version:  v12.14.1
+[debug] [2020-09-26T06:15:21.132Z] Time:          Sat Sep 26 2020 11:45:21 GMT+0530 (India Standard Time)
+[debug] [2020-09-26T06:15:21.132Z] ----------------------------------------------------------------------
+[debug] [2020-09-26T06:15:21.132Z] 
+[debug] [2020-09-26T06:15:21.142Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-26T06:15:21.143Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Ammu Beauty Parlour\Ammu Beauty Parlour
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using ammubeautyparlour-9d491. 
+[debug] [2020-09-26T06:15:30.920Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ammubeautyparlour-9d491  
+ 
+[debug] [2020-09-26T06:15:32.080Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 26 Sep 2020 06:15:32 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-09-26T06:16:14.315Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-09-26T06:16:14.479Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Sat, 26 Sep 2020 06:16:06 GMT","expires":"Sat, 26 Sep 2020 07:06:06 GMT","last-modified":"Thu, 24 Sep 2020 21:06:36 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"8","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-09-26T06:16:14.737Z] Error: ENOENT: no such file or directory, open 'E:\Ammu Beauty Parlour\Ammu Beauty Parlour\index.html\index.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.writeFileSync (fs.js:1265:35)
+    at Object.createFileSync (C:\Users\This pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\This pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\This pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-09-26T06:16:20.191Z] ----------------------------------------------------------------------
+[debug] [2020-09-26T06:16:20.194Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\This pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-26T06:16:20.194Z] CLI Version:   8.11.1
+[debug] [2020-09-26T06:16:20.195Z] Platform:      win32
+[debug] [2020-09-26T06:16:20.195Z] Node Version:  v12.14.1
+[debug] [2020-09-26T06:16:20.196Z] Time:          Sat Sep 26 2020 11:46:20 GMT+0530 (India Standard Time)
+[debug] [2020-09-26T06:16:20.196Z] ----------------------------------------------------------------------
+[debug] [2020-09-26T06:16:20.196Z] 
+[debug] [2020-09-26T06:16:20.207Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-26T06:16:20.209Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Ammu Beauty Parlour\Ammu Beauty Parlour
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using ammubeautyparlour-9d491. 
+[debug] [2020-09-26T06:16:27.111Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ammubeautyparlour-9d491  
+ 
+[debug] [2020-09-26T06:16:27.604Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 26 Sep 2020 06:16:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-09-26T06:16:36.588Z] Error: ENOENT: no such file or directory, open 'E:\Ammu Beauty Parlour\Ammu Beauty Parlour\index.html\404.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.writeFileSync (fs.js:1265:35)
+    at Object.createFileSync (C:\Users\This pc\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\This pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\This pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[error] 
+[error] Error: An unexpected error has occurred.
